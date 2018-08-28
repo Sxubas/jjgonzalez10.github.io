@@ -11,7 +11,15 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-
+	<!-- ja.manrique: Faltan los meta tags para mejorar el SEO -->
+	<meta name="description" content="Systems and Computing Engineering student at Los Andes university. Great interest in 
+					  informatic security and software development. Passionate football player.">
+	<meta name="keywords" content="Developer,Engineer,Student,Uniandes">
+	<meta name="author" content="Jhon Jairo Gonzalez Melo">
+	
+	<!-- ja.manrique: Podría no hostear las fuentes de los íconos si las llama desde el CDN de FontAwesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -230,18 +238,19 @@
 			<!-- Contact -->
 			<article id="Contacto">
 				<h2 class="major">Contacto</h2>
+				<!-- Incluír los 'placeholders' en los inputs para mejor claridad -->
 				<form method="post" action="#">
 					<div class="field half first">
 						<label for="nombre">Nombre</label>
-						<input type="text" name="nombre" id="nombre" />
+						<input type="text" name="nombre" id="nombre" placeholder="Jhon Gonzalez"/>
 					</div>
 					<div class="field half">
 						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
+						<input type="text" name="email" id="email" placeholder="jj.gonzalez@uniandes.edu.co"/>
 					</div>
 					<div class="field">
 						<label for="mensaje">Mensaje</label>
-						<textarea name="mensaje" id="mensaje" rows="4"></textarea>
+						<textarea name="mensaje" id="mensaje" rows="4" placeholder="¡Jhon, vimos tu página y nos encantaría tenerte en nuestro equipo!"></textarea>
 					</div>
 					<ul class="actions">
 						<li><input type="submit" value="Enviar Mensaje" class="special" /></li>
@@ -276,6 +285,7 @@
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
 	 crossorigin="anonymous"></script>
+	<!-- No se si el jquery de arriba incluya cosas de acá, para ver si se pueden borrar algunos scripts-->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
