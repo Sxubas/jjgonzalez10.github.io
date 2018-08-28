@@ -19,7 +19,10 @@
 	
 	<!-- ja.manrique: Podría no hostear las fuentes de los íconos si las llama desde el CDN de FontAwesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	
+  
+  <!-- ja.manrique: Un favicon siempre se ve chimbita (Lo generé desde: https://favicon.io/)-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
+  
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -123,7 +126,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 text-center">
-							<i class="icon fa fa-futbol-o "></i>
+							<i class="icon fas fa-futbol "></i> <!-- ja.manrique: Modificar clase para que cuadre con el CDN de FontAwesome -->
 							<br>
 							<h3> Futbol</h3>
 							<p>Jugar con amigos o jugar con mi familia un fin de semana son de las cosas que mas disfruto.
@@ -254,18 +257,18 @@
 					</div>
 					<ul class="actions">
 						<li><input type="submit" value="Enviar Mensaje" class="special" /></li>
-						<li><input type="reset" value="Borrar" /></li>
+						<!-- <li><input type="reset" value="Borrar" /></li> --> <!-- ja.manrique: La idea es que le escriban, no debe darles ánimo a que borren lo que le van a mandar (¡o que lo presionen por accidente!) -->
 					</ul>
 				</form>
 
 				<div class="col-md-12">
 					<ul class="social-network social-circle">
+            <!-- ja.manrique: Modificar clases para que cuadre con el CDN de FontAwesome -->
+						<li><a href="https://facebook.com" class="icoFacebook" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/jj_gonzalezm_10" class="icoTwitter" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
 
-						<li><a href="https://facebook.com" class="icoFacebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/jj_gonzalezm_10" class="icoTwitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-
-						<li><a href="https://co.linkedin.com/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin" target="_blank"></i></a></li>
-						<li><a href="https://github.com/jjgonzalez10" class="icoGithub" title="Github" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://co.linkedin.com/" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in" target="_blank"></i></a></li>
+						<li><a href="https://github.com/jjgonzalez10" class="icoGithub" title="Github" target="_blank"><i class="fab fa-github"></i></a></li>
 					</ul>
 				</div>
 
